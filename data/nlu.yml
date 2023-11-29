@@ -1,0 +1,296 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: fee structure
+  examples: |
+    - Can you provide the fees structure for the MSc in Data Science program
+    - What is the tuition cost for the MSc in Artificial Intelligence program
+    - I'm interested in MCA. Could you share the fees details for the Master of Computer Applications program
+    - What are the tuition and other associated fees for pursuing MSc in Data Science
+    - Could you give me information on the fees for the MSc in Artificial Intelligence program,including any additional costs
+    - I'm considering MSc in AI. Can you provide details on the total fees and any available scholarships
+    - What is the financial structure for MCA, including tuition and any other fees
+    - Are there any specific fees I should be aware of when enrolling in the MSc Data Science program
+    - What is the fee breakdown for the MSc in Artificial Intelligence, including any miscellaneous expenses
+    - Could you guide me on the fee structure for the MCA program, and if there are any payment plans available
+
+- intent: placement
+  examples: |
+    - What are the key considerations for choosing a placement during an MSc in Data Science program
+    - Can you provide insights into the significance of industry placements for students pursuing an MSc in Artificial Intelligence
+    - How does the placement process differ for MSc Data Science and MCA programs, and what factors should students prioritize
+    - What role does industry exposure play in enhancing the learning experience of students in MSc AI programs through internships and placements
+    - Are there specific companies or sectors that actively recruit graduates from MCA programs for placements, and what skills are they typically looking for
+    - How can students prepare themselves for successful placements during their MSc in Artificial Intelligence studies
+    - What are the emerging trends in industry placements for students pursuing MSc in Data Science, and how can they stay competitive in the job market
+    - Are there any specialized placement programs or partnerships that MCA students should be aware of to enhance their career prospects
+    - How do MSc in AI programs facilitate connections with industry professionals and organizations for potential placements
+    - Can you share success stories or testimonials of students who secured notable placements after completing their MSc in Data Science or MCA
+
+- intent: teachers
+  examples: |
+    - How would you describe the teaching style of the instructors in the department
+    - Can you provide insights into the level of approachability and friendliness of the teachers
+    - What is the general atmosphere like between students and faculty within the department
+    - Are there opportunities for students to engage in one-on-one discussions with teachers
+    - How do teachers in the department support students outside of regular class hours
+    - In your experience, how accessible are teachers for questions or concerns
+    - Can you share any anecdotes about positive interactions with teachers in the department
+    - Is there a sense of mentorship between teachers and students in your academic department
+    - What resources or initiatives does the department have to foster positive teacher-student relationships
+    - How does the department encourage open communication between students and teachers
+
+- intent: hostel
+  examples: |
+    - Are there any hostels available for students near the campus?
+    - Can you provide information about the student hostels in the vicinity?
+    - How do I apply for on-campus hostel accommodation as a student?
+    - What are the amenities provided in the student hostels?
+    - Are there any off-campus hostel options that are commonly chosen by students?
+    - Could you recommend affordable hostels for students in the area?
+    - What is the process for securing a hostel room for the upcoming academic year?
+    - Can you share details about the safety measures in place at student hostels?
+    - Are there any specific rules or regulations regarding hostel stay for students?
+    - How far are the nearest hostels from the university campus?
+
+- intent: documents
+  examples: |
+    - What documents do I need to submit during the admission process?
+    - Can you provide a list of required documents for admission?
+    - Which paperwork is necessary for student admissions?
+    - What are the key documents needed for the admission application?
+    - Could you outline the documentation required for student enrollment?
+    - What paperwork is essential for the admission of new students?
+    - Can you guide me on the submission of admission-related documents?
+    - What is the document submission procedure for student enrollment?
+    - Are there specific forms or certificates required for admission?
+    - Could you specify the documents needed for the admission process?
+
+- intent: class_timings
+  examples: |
+    - Can you provide information about the class timings ?
+    - What are the working hours for classes ?
+    - How can I find my class schedule and timings?
+    - Is there a tool or platform where I can check my upcoming class timings?
+    - Can you help me understand the schedule for [course code] classes this semester?
+    - What is the duration of each class session ?
+    - Are there any changes to the regular class timings this week?
+    - Where can I find details about the working hours for the Department ?
+    - Is there a specific portal or app to check class timings and locations?
+    - What should I do if I have a scheduling conflict with my classes?
+
+- intent: canteen
+  examples: |
+    - Can you provide information about the location of the canteen on campus?
+    - What food options are available for hostel residents? Is there a hostel meal plan?
+    - Are there specific dining facilities for students in the hostels?
+    - Tell me about the variety of food available in the campus canteen.
+    - For prospective students, what dining options are offered on campus?
+    - Is there a cafeteria or canteen that caters to dietary preferences for students?
+    - Can you provide details about the meal services available for students in hostels?
+    - What kind of food services are provided for students living on campus?
+    - Do you have any information about the meal plans for students at the university?
+    - As a prospective student, where can I find information about campus dining facilities?
+
+- intent: transport
+  examples: |
+    - Is there a college bus service available for students?"
+    - What are the transportation options for students at the college?
+    - Tell me about the conveyance facilities provided for students, especially regarding college buses?
+    - Is there a shuttle service for students who live off-campus?
+    - Can you provide information on public transportation accessibility for students?
+    - How do students typically commute to the college campus?
+    - Are there any special transportation arrangements for students with disabilities?
+    - What's the availability of parking facilities for students who commute by car?
+    - Do you offer any support or guidance for students regarding local transportation?
+    - Is there a designated area for drop-off and pick-up for students using private transportation?
+
+- intent: last_rank
+  examples: |
+    - Last rank details for admission in [specific university/college] for [program name]."
+    - What was the last rank admitted for [program name] in [year]?"
+    - Tell me the minimum rank required for admission in [program name]."
+    - Last year's admission last rank for [category] in [university/college]."
+    - What is the cutoff rank for [program name] admission this year?"
+    - Give me information about the lowest rank accepted for [program name] admission."
+    - Last rank details for [category] in [university/college] for [year]."
+    - I need to know the last rank admitted for [program name] in [university]."
+    - Provide details on the lowest rank accepted for [category] in [program name]."
+    - What was the cutoff rank for [category] in [year] for [program name]?"
+
+- intent: facilities
+  examples: |
+    - What facilities does the department offer for students, such as labs, WiFi, and bathrooms?
+    - Can you provide information on the available amenities in the department, including laboratories, WiFi access, and restroom facilities?
+    - What are the key facilities that prospective students can expect from the department if they decide to enroll?
+    - Tell me about the infrastructure and facilities provided by the department for students, including any available laboratories and WiFi services.
+    - As a student, what amenities are available in the department, such as labs, WiFi, and restrooms?
+    - For someone considering admission, what details can you share about the facilities offered by the department, especially in terms of labs and connectivity?
+    - What provisions does the department have in terms of facilities, like laboratories, WiFi, and other student necessities?
+    - Could you outline the facilities provided by the department to support students, including any available laboratories, WiFi options, and restroom facilities?
+    - As a prospective student, what should I know about the facilities offered by the department, such as labs, WiFi, and other essential services?
+    - Provide details on the amenities and facilities available in the department that would be relevant to a person seeking admission.
+
+- intent: no_of_seats
+  examples: |
+    - How many seats are available for the upcoming academic year in my preferred course?
+    - What's the seat count for the program I'm considering for admission?
+    - Can you share the number of seats for prospective students?
+    - What's the total seat capacity for the courses you offer?
+    - How competitive is admission based on the available seats?
+    - Are there reserved seats, and how does that impact admissions?
+    - Can you provide the seat breakdown for popular courses?
+    - How many seats are there for undergraduate programs?
+    - What's the student-to-faculty ratio for my chosen course?
+    - For someone applying, can you specify the seat limit per program?
+
+- intent: syllabus
+  examples: |
+    - Can you provide the detailed syllabus for MSc Computer Science?"
+    - What are the key topics covered in the MCA syllabus?"
+    - Tell me about the syllabus structure for MSc in Computer Science."
+    - What subjects are included in the MCA program syllabus?"
+    - Provide an overview of the syllabus for MSc in Computer Science and MCA."
+    - I'm considering admission. What's covered in the MSc CS syllabus?"
+    - For someone looking to join MCA, what's the syllabus like?"
+    - Could you list the major subjects in MSc Computer Science syllabus?"
+    - What are the core modules in the MCA syllabus?"
+    - Give me insights into the syllabus for both MSc CS and MCA programs.”
+
+- intent: scope
+  examples: |
+    - Tell me about the scope of MSC CS and MCA for students considering admission."
+    - What opportunities does pursuing MSC CS or MCA open up for students?"
+    - Can you provide insights into the career scope for someone aiming to enroll in MSC CS or MCA?"
+    - What are the key aspects of career growth after completing an MSC CS or MCA program?"
+    - Describe the potential career paths and job opportunities for students pursuing MSC CS or MCA."
+    - How does the scope of MSC CS differ from MCA in terms of career prospects?"
+    - What industries or sectors actively seek professionals with an MSC CS or MCA background?"
+    - What skills and knowledge can students expect to gain from an MSC CS or MCA program, enhancing their career prospects?"
+    - Are there any specific trends or advancements in technology that impact the scope of MSC CS or MCA programs?"
+    - Can you provide examples of successful career trajectories for individuals with an MSC CS or MCA degree?”
+
+
+- intent: inform_user_details
+  examples: |
+    - I am [Deepika](PERSON)
+    - I am [Saranya](PERSON)
+    - I am [Joyal](PERSON)
+    - I am [Ashik](PERSON)
+    - My name is [Abhijith](PERSON)
+    - My name is [anu](PERSON)
+    - My name is [Hari](PERSON)
+    - My name is [Unni](PERSON)
+    - call me [Ajith](PERSON)
+    - call me [Sreerag](PERSON)
+    - call me [Nandu](PERSON)
+    - call me [chodu](PERSON)
+    - myself [arjun](PERSON)
+    - myself [Amal](PERSON)
+    - myself [Pauly](PERSON)
+    - myself [Jazim](PERSON)
+    - I go by the name of [Anas](PERSON)
+    - I go by the name of [Archa](PERSON)
+    - I go by the name of [Sneha](PERSON)
+    - I go by the name of [baby](PERSON)
+    - [babykuttan](PERSON) is what people call me
+    - [binta](PERSON) is what people call me
+    - [sajidha](PERSON) is what people call me
+    - [Reji](PERSON) is what people call me
+    - You can call me [Mariyam](PERSON)
+    - You can call me [Sherin](PERSON)
+    - You can call me [Anagha](PERSON)
+
+# - regex: email
+#   examples: |
+#     - [a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}
+    

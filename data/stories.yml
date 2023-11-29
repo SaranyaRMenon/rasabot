@@ -1,0 +1,95 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fee structure
+  steps:
+  - intent: fee structure
+  - action: utter_Fee_structure
+
+- story: Placement
+  steps:
+  - intent: placement
+  - action: utter_Placement
+
+- story: Teachers
+  steps:
+  - intent: teachers
+  - action: utter_Teachers
+
+- story: Hostel
+  steps: 
+  - intent: hostel
+  - action: utter_Hostel
+
+- story: Document
+  steps:
+  - intent: document
+  - action: utter_Document
+
+- story: class timings
+  steps: 
+  - intent: class_timings
+  - action: utter_Class_timings
+
+- story: Canteen
+  steps: 
+  - intent: canteen
+  - action: utter_Canteen
+
+- story: Transport
+  steps:
+  - intent: transport
+  - action: utter_Transport
+
+- story: last rank
+  steps:
+  - intent: last_rank
+  - action: utter_Last_rank
+
+- story: Facilities
+  steps:
+  - intent: facilities
+  - action: utter_Facilities
+
+- story: no of seats
+  steps:
+  - intent: no_of_seats
+  - action: utter_No_of_seats
+
+- story: Syllabus
+  steps:
+  - intent: syllabus
+  - action: utter_Syllabus
+
+- story: Scope
+  steps:
+  - intent: scope
+  - action: utter_Scope  

@@ -1,0 +1,264 @@
+version: "3.1"
+
+intents:
+- fee structure
+- placement
+- teachers
+- hostel
+- document
+- class_timings
+- canteen
+- transport
+- last_rank
+- facilities
+- no_of_seats
+- affirm
+- syllabus
+- scope
+- deny
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+
+
+entities:
+  - PERSON
+  - email
+
+slots:
+  name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: PERSON
+      not_intent: chitchat
+      conditions:
+      - active_loop: userdetailsform
+        requested_slot: name
+  email:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: email
+      not_intent: chitchat
+      conditions:
+      - active_loop: userdetailsform
+        requested_slot: email
+forms:
+  userdetailsform:
+    ignored_intents: 
+    - chitchat
+    required_slots:
+      - name
+      - email
+
+responses:
+  utter_Teachers:
+  - text: "The teaching style within the department is characterized by a balanced approach that encourages self-
+    learning while providing active support from the instructors. Students are encouraged to take initiative
+    in their learning journey, with a focus on self-discovery and independent problem-solving. The
+    instructors serve as guides and facilitators, offering guidance and resources to help students explore
+    concepts on their own. The friendly and approachable nature of the instructors creates an open and
+    supportive atmosphere. This accessibility helps build strong student-instructor relationships,
+    contributing to a positive learning experience.
+    Overall, the teaching style in the department combines self-directed learning with a supportive and
+    amicable faculty presence, creating a conducive environment for academic growth and personal
+    development.
+    To know more about the teachers in our department: https://dca.cusat.ac.in/faculty.php"
+
+  utter_greet:
+  - text: Hello! I’m a chatbot designed to help you with your queries. How can I assist you today? 😊
+
+  utter_cheer_up:
+  - text: You are never too old to set another goal or to dream a new dream. So cheer up.
+
+  utter_Scope:
+  - text: "The scope of doing MSc Computer Science with specialization in Data Science/ Artificial Intelligence or MCA from the Department of Computer Applications (DCA) at Cochin University of Science and 
+    Technology (CUSAT) is quite promising, as the department offers various courses and opportunities for
+    students who are interested in these fields.
+    The department offers MCA (Master of Computer Application), MSc Computer Science with
+    Specialization in Artificial Intelligence, MSc Computer Science with Specialization in Data Science, Ph.D in
+    Technology and Ph.D in Science. The department has an experienced team of faculty members with
+    expertise in data science, machine learning and cyber security, and has more than one crore worth
+    funded projects. The department also organizes workshops, technical seminars, faculty development
+    programmes and conferences to expose the students to real world problems and industry needs.
+    The MSc Computer Science with Specialization in Artificial Intelligence course covers various areas
+    related to machine learning, probabilistic reasoning, natural language processing, computer vision,
+    robotics, and other related areas. The course aims to provide students with a deep understanding of AI
+    algorithms, techniques, and applications. The course is designed to prepare students for careers in
+    research, innovation, higher studies, and entrepreneurship in the field of AI.
+    The MSc Computer Science with Specialization in Data Science course covers various areas related to
+    data mining, machine learning, big data, data analytics, data visualization, and other related areas. The
+    course aims to provide students with a solid foundation and practical skills in data science, and to enable
+    them to handle large and complex data sets. The course is designed to prepare students for careers in
+    data science, data engineering, data analysis, and data-driven decision making in various domains.
+    The MCA course covers various areas related to computer applications, software engineering, system
+    design, database management, web development, and other related areas. The course aims to provide
+    students with a comprehensive knowledge and proficiency in computer applications, and to equip them
+    for system integration, database design and administration, information technology-enabled services,
+    and other related fields.
+    The department also offers Ph.D programmes in Technology and Science, where students can pursue
+    research in various areas of computer science, such as data science, machine learning, artificial
+    intelligence, cyber security, natural language processing, computer vision, and other related areas. The
+    department has a strong research culture and has produced more than 30 Ph.Ds in data science and
+    allied areas. The department also has more than 100 publications in reputed journals and conferences in
+    the last five years.
+    Therefore, the scope of doing MSc Computer Science with specialization in Data Science/ Artificial
+    Intelligence or MCA from the DCA at CUSAT is quite high, as the department provides quality education,
+    research, and innovation in these fields, and prepares students for the highly competitive and dynamic
+    IT industry."
+
+  utter_Class_timings:
+  - text: 'Classes are scheduled from 9 am to 4 pm. To access the detailed timetable, kindly visit the following link:
+    https://dca.cusat.ac.in/time-table.php. This web page contains information on specific class schedules
+    and timings, allowing you to plan your academic activities accordingly.'
+
+  utter_Canteen:
+  - text: "The university campus offers a variety of dining options and hangout spots for students. Among these,
+    there are popular choices such as the CUSAT restaurant, Milma snack points, and the CUSAT Cafe. These
+    locations provide diverse food choices and comfortable spaces for students to relax and socialize within
+    the university vicinity. Whether you're looking for a quick snack, a hearty meal, or a casual hangout spot, the campus offers a range of options to cater to different preferences. Explore these spots to enjoy not
+    only good food but also a vibrant social atmosphere."
+
+  utter_Syllabus:
+  - text: 'MCA
+    To access the syllabus for MCA visit: https://dca.cusat.ac.in/assets/syllabus/MCA2022Syllabus.pdf
+    Data Science
+    To access the syllabus for Data Science visit:
+    https://dca.cusat.ac.in/assets/syllabus/Msc%20Data%20Science%202022.pdf
+    Artificial Intelligence
+    To access the syllabus for Artificial Intelligence visit:
+    https://dca.cusat.ac.in/assets/syllabus/Msc%20AI%202023.pdf'
+
+  utter_No_of_seats:
+  - text: 'MCA:
+    MCA Regular
+    Seats available: 29 + 1 Sponsored
+    Supernumerary seats: 2 DAC, 2 TG, 3 EWS
+    MCA Cost sharing
+    Seats available: 29 + 1 Sponsored
+    Supernumerary seats:1 CHD, 1 SPQ, 2 DAC, 2 TG, 1 CUSAT Staff, 3 EWS
+    Data Science
+    Seats available: 25
+    Supernumerary seats: 5 KEPA,3 EWS,1 DAC,2 TG
+    Artificial Intelligence
+    Seats available: 30
+    Supernumerary seats: 3 NRI,3 EWS, 2 DAC, 1 CHD, 1 SPQ, 2 TG, 1 CUSAT Staff'
+
+  utter_Transport:
+  - text: Please check university website
+
+  utter_Last_rank:
+  - text: Please check admission portal
+
+  utter_did_that_help:
+  - text: Did that help you?
+
+  utter_Document:
+  - text: Please check admission portal
+
+  utter_Hostel:
+  - text: "The COCHIN UNIVERSITY OF SCIENCE AND TECHNOLOGY has 14 hostels to satisfy this need. Each hostel
+    has at least one Assistant warden, who is a faculty member, at least one Manager (for boys’ hostel) or
+    Matron (for Girls’ hostel) and two to four sweeper-cum-cleaners. To facilitate the overall administration
+    of all these hostels and to cater to the time-to-time needs of the students as well as the management of
+    the above staff, the CENTRAL OFFICE FOR UNIVERSITY HOSTELS was set up with the CHIEF WARDEN as
+    the Head of the office. There are 14 hostels under the control of the CENTRAL OFFICE FOR UNIVERSITY
+    HOSTELS. Out of the 14, 8 are Boys Hostels and 6 are Girls Hostels. All these 13 hostels are under the
+    direct control of this office.
+    To know more about the hostel visit: https://hostels.cusat.ac.in/"
+
+  utter_goodbye:
+  - text: Bye
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_Fee_structure:
+  - text: "1. MCA Regular- 
+    Tuition fee per semester: 10725, 
+    Library fee per semester: 210 
+    Lab fee per semester: 545 
+    Quasi fee: 210
+    Extracurricular Activities: 910
+    Miscellaneous Fee: 630
+    Caution Deposit: 1350 
+    Co-Curricular Fees:140 
+    Total fee: 14720
+    Total fee payable by SC/ST Candidates: 1350
+    Tuition Fee for NRI seats:
+    Total Fee for NRI students: Not Applicable
+    2. MCA Cost Sharing
+    Tuition fee per semester: 31915
+    Library fee per semester: 210
+    Lab fee per semester: 545
+    Quasi fee: 210
+    Extracurricular Activities: 910
+    Miscellaneous Fee: 630
+    Caution Deposit: 1350
+    Co-Curricular Fees: 140
+    Other fees:
+    Total fee: 35910
+    Total fee payable by SC/ST Candidates: 1350
+    Tuition Fee for NRI seats:
+    Total Fee for NRI students: Not Applicable
+    3. MSc AI
+    Tuition fee per semester: 31915
+    Library fee per semester: 210
+    Lab fee per semester: 545
+    Quasi fee: 210
+    Extracurricular Activities: 910
+    Miscellaneous Fee: 630
+    Caution Deposit: 1350
+    Co-Curricular Fees: 140
+    Other fees:
+    Total fee: 35910
+    Total fee payable by SC/ST Candidates: 1350
+    Tuition Fee for NRI seats: 63830
+    Total Fee for NRI students: 117825
+
+    4. MSc DS
+    Tuition fee per semester: 31915
+    Library fee per semester: 210
+    Lab fee per semester: 545
+    Quasi fee: 210
+    Extracurricular Activities: 910
+    Miscellaneous Fee: 630
+    Caution Deposit: 1350
+    Matriculation Fee:
+    Recognition Fee:
+    Co-Curricular Fees: 140
+    Other fees:
+    Total fee: 35910
+    Total fee payable by SC/ST Candidates: 1350
+    Tuition Fee for NRI seats:
+    Total Fee for NRI students: Not Applicable"
+  utter_Placement:
+  - text: "The Department has a placement cell managed by students and actively assisted by the faculty members. All Eligible students have successfully joined major IT companies like TCS, Infosys, SOTI, IBM, Wipro, Cisco, Cognizant, UST, etc. 
+    To see the placement details visit: https://dca.cusat.ac.in/placement-cell.php"
+  utter_Facilities:
+  - text: 'Our campus is equipped with a robust infrastructure to support research and academic activities. This
+    includes four state-of-the-art research labs and three dedicated student labs. In addition, we provide
+    cutting-edge facilities such as three Dell Precision 3650 Workstations, two Boston Workstations, eight
+    high-performance computers, and three Apple iMac machines. These resources are strategically
+    designed to enhance the learning and research experiences of our students, providing them with access
+    to advanced technology and tools that align with the latest industry standards. Whether engaged in
+    research endeavors or academic projects, students have ample opportunities to utilize these facilities
+    for their intellectual and professional development.'
+  utter_email_tnx:
+  - text: "Thankyou for providing email, you can continue now"
+
+
+
+actions:
+
+- action_submit_userdetailsform
+- action_ask_userdetailsform_name
+- action_ask_userdetailsform_email
+- action_default_fallback
+- action_utter_please_rephrase
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

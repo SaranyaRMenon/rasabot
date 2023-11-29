@@ -1,0 +1,251 @@
+intent,examples
+greet,hey
+greet,hello
+greet,hi
+greet,hello there
+greet,good morning
+greet,good evening
+greet,moin
+greet,hey there
+greet,let's gos
+greet,hey dude
+greet,goodmorning
+greet,goodevening
+greet,good afternoon
+goodbye,cu
+goodbye,good by
+goodbye,cee you later
+goodbye,good night
+goodbye,bye
+goodbye,goodbye
+goodbye,have a nice day
+goodbye,see you around
+goodbye,bye bye
+goodbye,see you later
+goodbye,close
+affirm,yes
+affirm,y
+affirm,indeed
+affirm,of course
+affirm,that sounds good
+affirm,correct
+deny,no
+deny,n
+deny,never
+deny,I don't think so
+deny,don't like that
+deny,no way
+deny,not really
+mood_great,perfect
+mood_great,great
+mood_great,amazing
+mood_great,feeling like a king
+mood_great,wonderful
+mood_great,I am feeling very good
+mood_great,I am great
+mood_great,I am amazing
+mood_great,I am going to save the world
+mood_great,super stoked
+mood_great,extremely good
+mood_great,so so perfect
+mood_great,so good
+mood_great,so perfect
+mood_unhappy,my day was horrible
+mood_unhappy,I am sad
+mood_unhappy,I don't feel very well
+mood_unhappy,I am disappointed
+mood_unhappy,super sad
+mood_unhappy,I'm so sad
+mood_unhappy,sad
+mood_unhappy,very sad
+mood_unhappy,unhappy
+mood_unhappy,not good
+mood_unhappy,not very good
+mood_unhappy,extremly sad
+mood_unhappy,so saad
+mood_unhappy,so sad
+bot_challenge,are you a bot?
+bot_challenge,are you a human?
+bot_challenge,am I talking to a bot?
+bot_challenge,am I talking to a human?
+bot_challenge,who are you?
+bot_challenge,what is your name?
+receipt_creation,How can i generate a cash receipt
+receipt_creation,How can i create a cash receipt
+receipt_creation,How can i develop a cash receipt
+receipt_creation,Where can i generate a cash receipt
+receipt_creation,From Where can i generate a cash receipt
+receipt_creation,Where is the link to generate a cash receipt
+receipt_creation,Where is the module for generating a receipt
+receipt_creation,Where the module to generate a cash receipt available
+receipt_creation,Where the module to create a receipt available
+receipt_creation,Where the link to generate a cash receipt available
+steps_to_create_cash_receipt,What are the steps to create a cash receipt?
+steps_to_create_cash_receipt,What is the process for producing a cash receipt?
+steps_to_create_cash_receipt,What steps should I follow to create a cash receipt?
+steps_to_create_cash_receipt,What is the method for creating a cash receipt?
+steps_to_create_cash_receipt,What is the procedure for generating a cash receipt?
+steps_to_create_cash_receipt,What are the guidelines for generating a cash receipt?
+steps_to_create_cash_receipt,What is the approach to creating a cash receipt?
+steps_to_create_cash_receipt,What are the steps required to generate a cash receipt?
+steps_to_create_cash_receipt,What are the instructions for creating a cash receipt?
+steps_to_create_cash_receipt,What are the necessary steps to create a cash receipt?
+add_multiple_parties,How can i add multiple parties in a cash receipt?
+add_multiple_parties,How can i include multiple parties in a cash receipt?
+add_multiple_parties,How can i participate multiple parties in a cash receipt?
+add_multiple_parties,What is the process for including multiple recipients on a cash receipt?
+add_multiple_parties,Is there a way to list multiple parties on a cash receipt?
+add_multiple_parties,What is the procedure for including multiple parties on a cash receipt?
+add_multiple_parties,What is the technique for adding more than one parties on a cash receipt?
+add_multiple_parties,What is the approach for including multiple parties on a cash receipt?
+extra_collection,What steps do I need to take to include an extra collection in a cash receipt?
+extra_collection,What are the steps to include an extra collection in a cash receipt?
+extra_collection,What is the way to include an extra collection in a cash receipt?
+extra_collection,What approach should I take to include an extra collection in a cash receipt?
+extra_collection,What is the way to insert an extra collection into a cash receipt?
+extra_collection,What is the approach to append a extra collection to a receipt?
+extra_collection,What is the process for appending a extra collection to a cash receipt?
+extra_collection," I want to add extra collection to my receipt, how can i do that?"
+extra_collection,How can I include an extra collection in my receipt?
+extra_collection,How can i add extra collection in cash receipt?
+discount_cash_receipt,How can i add discount in cash receipt?
+discount_cash_receipt,What steps do I need to take to include a discount in a cash receipt?
+discount_cash_receipt,What are the steps to include an discount in a cash receipt?
+discount_cash_receipt,What is the way to include an discount in a cash receipt?
+discount_cash_receipt,What approach should I take to include an discount in a cash receipt?
+discount_cash_receipt,What is the way to insert an discount into a cash receipt?
+discount_cash_receipt,What is the approach to append a discount to a receipt?
+discount_cash_receipt,What is the process for appending a discount to a cash receipt?
+discount_cash_receipt," I want to add discount to my receipt, how can i do that?"
+discount_cash_receipt,How can I include an discount in my receipt?
+block_and_unblock,what is account bloking and how to unblock
+block_and_unblock,How can I tell if my account has been blocked?
+block_and_unblock,How can I prevent my account from being blocked in the future?
+block_and_unblock," Can a blocked account be reinstated, and what steps are required to do so?"
+block_and_unblock,What are the reasons why an account might get blocked?
+block_and_unblock,Is it possible to have a blocked account reinstated?
+block_and_unblock,How long does it typically take to get a blocked account reinstated?
+block_and_unblock,Can I still access my account while it is blocked?
+block_and_unblock," Is it possible to unblock a blocked account, and if so, how?"
+block_and_unblock,What steps do I need to take to reinstate a blocked account?
+card_payment,How do I choose card payment as a mode of receipt?
+card_payment,What are the steps involved in selecting card payment as a receipt method?
+card_payment,What is the process for selecting card payment as a mode of receipt?
+card_payment,Is it possible to use a credit card for receiving payments?
+card_payment,What is the process for setting up a credit card as a mode of payment reception?
+card_payment,Can you walk me through the steps for selecting a credit card for payment receipt?
+card_payment,How can I add a credit card as a payment method to receive payments?
+card_payment,What information do I need to provide when choosing a credit card as a receipt method?
+cheque_payment,What is the process for making a payment using a cheque?
+cheque_payment,Can you walk me through the steps involved in paying with a cheque?
+cheque_payment,What information do i need to include on a cheque when making a payment?
+cheque_payment,Could you guide me through the process of making a payment using a cheque?
+cheque_payment,What is the stepbystep procedure for paying via cheque?
+cheque_payment,Can you explain how to make a payment using a cheque?
+cheque_payment,What are the steps I need to take to pay with a cheque?
+cheque_payment," How do i make a payment using a cheque, and can you break down the process for me?"
+cheque_payment,Could you please provide me with an overview of the steps required to pay with a cheque?
+cheque_payment,Would you be able to demonstrate the process of making a payment via cheque?
+cheque_payment," What does the process of paying with a cheque, andcould you walk me through it?"
+credit_receipt,How to make a credit Receipt?
+credit_receipt,What are the steps to create a credit receipt?
+credit_receipt,Can you provide a guide for making a credit receipt?
+credit_receipt,What information should be included in a credit receipt?
+credit_receipt,What is the process for generating a credit receipt?
+credit_receipt,What are the best practices for preparing a credit receipt?
+credit_receipt,How can I ensure the accuracy of a credit receipt?
+credit_receipt,What are some common mistakes to avoid while making a credit receipt?
+credit_receipt,How can i generate a credit receipt?
+credit_receipt,What is the process for creating a credit receipt?
+credit_receipt,Can you explain how to generate a credit receipt?
+credit_receipt,What steps are involved in producing a credit receipt?
+credit_receipt,Is there a specific method for creating a credit receipt?
+credit_receipt,How do I go about making a credit receipt?
+credit_receipt,What are the requirements for generating a credit receipt?
+credit_receipt,Could you walk me through the process of creating a credit receipt?
+credit_receipt,Can you provide instructions for producing a credit receipt?
+credit_receipt,What do I need to do to generate a credit receipt?
+credit_receipt,Is there a template or format I should use when creating a credit receipt?
+upi_payment,What are the steps for making a UPI payment?
+upi_payment,How can i done upi payment ?
+upi_payment,Can you provide a guide on how to do a UPI payment?
+upi_payment,How do I initiate a UPI payment?
+upi_payment,What is the process for completing a UPI payment?
+upi_payment,Are there any specific requirements for making a UPI payment?
+upi_payment,What are the different ways to make a UPI payment?
+upi_payment,Is there any limit on the amount of money I can transfer through UPI?
+upi_payment,How do I ensure the security of my UPI payment?
+upi_payment,Are there any fees associated with UPI payments?
+upi_payment,What should I do if my UPI payment fails?
+change_roe,How can i change the ROE?
+change_roe,How do i modify the ROE?
+change_roe,How to change Rate of Exchange?
+change_roe,Steps to Modify Rate of Exchange?
+change_roe,Maximum allowed ROE adjustment variance.
+change_roe,What is the procedure for modifying the Exchange Rate?
+change_roe,What is the process for altering the ROE?
+change_roe,What is the maximum permissible variance for ROE adjustment?
+change_roe,The highest permissible difference in ROE adjustment?
+change_roe,What are the procedures for changing the ROE?
+change_receipt_date,How can i change the receipt date?
+change_receipt_date,How can i change the transaction date limit?
+change_receipt_date,How do I modify the transaction date limit?
+change_receipt_date,How do I adjust the transaction date limit?
+change_receipt_date,What is the process for altering the date on the receipt?
+change_receipt_date,What is the process to modify the receipt date?
+change_receipt_date,What is the procedure for adjusting the transaction date limit?
+change_receipt_date,What is the procedure for altering the transaction date range?
+change_receipt_date,What is the process for adjusting the transaction date boundary?
+change_receipt_date,What is the method for modifying the transaction date range?
+advanced_receipt,What is Advanced Receipt Doc.No?
+advanced_receipt,Why advanced receipt is used?
+advanced_receipt,How to create an advanced receipt?
+advanced_receipt,Steps to create an advanced receipt.
+advanced_receipt,Uses of advanced receipt.
+advanced_receipt,Could you explain what Advanced Receipt Doc. No. means?
+advanced_receipt,What does the term Advanced Receipt Doc. No. mean?
+advanced_receipt,What are the steps for generating an advanced receipt?
+advanced_receipt,What is the process for producing an advanced receipt?
+advanced_receipt,What are the purposes of an advanced receipt?
+separate_vat_bank_charges,What is the purpose of the line item for separately recording bank commission?
+separate_vat_bank_charges,How to separate VAT and bank charges from the receipt?
+separate_vat_bank_charges,What is the use of Line for bank commission separate entry?
+separate_vat_bank_charges,What is the method for segregating VAT and bank charges from the receipt?
+separate_vat_bank_charges,What are the steps to distinguish VAT and bank charges from the receipt?
+separate_vat_bank_charges,What is the purpose of including a separate line item for bank commission?
+separate_vat_bank_charges,What is the purpose of using a separate line for bank commission entry?
+separate_vat_bank_charges,What is the purpose of creating a separate line for bank commission entry?
+separate_vat_bank_charges,What are the steps to separate VAT and bank charges from a receipt?
+separate_vat_bank_charges,is it possible to seperate VAT and bank charges from receipt?
+cheque_receipt,How can i generate a cheque receipt?
+cheque_receipt,Can you guide me on how to create a cheque receipt?
+cheque_receipt,What are the steps involved in generating a cheque receipt?
+cheque_receipt,Is there a template available for generating a cheque receipt?
+cheque_receipt,What information should be included in a cheque receipt?
+cheque_receipt,Can you recommend software for creating cheque receipts?
+cheque_receipt,How can I design a custom cheque receipt for my business?
+cheque_receipt,What is the purpose of a cheque receipt and how do I create one?
+cheque_receipt,Are there any legal requirements for generating a cheque receipt?
+cheque_receipt,What is the procedure for generating a cheque receipt?
+cheque_receipt,How do I go about creating a cheque receipt?
+cheque_receipt,What are the steps to create a cheque receipt?
+cheque_receipt,What are the stages of producing a cheque receipt?
+generate_payment,How can i generate a payment
+generate_payment,How can i create a payment
+generate_payment,How can i develop a payment
+generate_payment,Where can i generate a payment
+steps_to_generate_payment,What are the steps to create a payment?
+steps_to_generate_payment,What is the process for payment?
+steps_to_generate_payment,What are the steps required to generate a payment?
+steps_to_generate_payment,What are the instructions for creating a payment?
+steps_to_generate_payment,What are the necessary steps to create a payment?
+steps_to_generate_payment,what are the steps to create a payment
+extra_payment,How can i add extra payment?
+extra_payment,What steps do I need to take to include an extra payment ?
+extra_payment,What are the steps to include an extra payment?
+extra_payment,What is the way to include an extra payment?
+deduction_payment,How can i add deduction in payment?
+deduction_payment,What steps do I need to take to include a deduction in a payment?
+deduction_payment,What are the steps to include a deduction in a payment?
+deduction_payment,What is the way to include a deduction in a payment?
+deduction_payment,What approach should I take to include a deduction in a payment?
